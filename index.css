@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+/* Ensure everything hides the cursor so the custom one takes over */
+* {
+  cursor: none !important;
+}
+
+::selection {
+  background: #111111;
+  color: #ffffff;
+}
+
+/* Custom scrollbar for minimalist feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eeeeee;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dddddd;
+}
