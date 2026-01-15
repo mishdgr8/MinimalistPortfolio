@@ -11,11 +11,11 @@ const Footer: React.FC = () => {
   }, []);
 
   const formattedTime = time.toLocaleTimeString('en-US', { hour12: false });
-  const formattedDate = time.toLocaleDateString('en-US', { 
-    weekday: 'long', 
-    year: 'numeric', 
-    month: 'long', 
-    day: 'numeric' 
+  const formattedDate = time.toLocaleDateString('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
   });
 
   const socials = [
@@ -50,19 +50,7 @@ const Footer: React.FC = () => {
   ];
 
   return (
-    <footer className="py-32 px-20 md:px-44 border-t border-gray-100 flex flex-col items-center text-center space-y-20">
-      {/* Primary CTA */}
-      <div className="space-y-10 max-w-6xl">
-        <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight whitespace-normal md:whitespace-nowrap">
-          Let's bring your ideas to life.
-        </h2>
-        <div className="flex justify-center">
-          <button className="px-12 py-4 rounded-full border-2 border-black text-lg font-bold tracking-widest uppercase hover:bg-black hover:text-white transition-all duration-500">
-            GET IN TOUCH
-          </button>
-        </div>
-      </div>
-
+    <footer className="py-12 px-20 md:px-44 border-t border-gray-100 flex flex-col items-center text-center space-y-12">
       {/* Social Media Section */}
       <div className="flex items-center space-x-10 md:space-x-16">
         {socials.map((social) => (
@@ -83,7 +71,7 @@ const Footer: React.FC = () => {
           </motion.a>
         ))}
       </div>
-      
+
       {/* Date and Time Footer */}
       <div className="flex flex-col items-center text-[10px] font-black text-gray-400 tracking-[0.4em] uppercase">
         <span className="text-2xl text-black mb-3 tracking-normal font-medium">{formattedTime}</span>

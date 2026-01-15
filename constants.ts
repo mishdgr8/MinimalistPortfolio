@@ -188,5 +188,135 @@ export const PROJECTS: Project[] = [
     role: 'Lead Animator',
     artDirection: 'Global Visuals',
     bgColor: '#e6f4ff'
+  },
+  {
+    id: 'urban-flow',
+    title: 'Urban Flow',
+    subtitle: 'City rhythm exploration',
+    category: 'Motion Design',
+    thumbnail: '/assets/Colored_Cyclist.mp4',
+    videoThumbnail: '/assets/Colored_Cyclist.mp4',
+    videoUrl: '/assets/Colored_Cyclist.mp4',
+    description: [
+      'A study of rhythm and pacing within an urban environment, using cycling as a metaphor for the pulse of the city.',
+      'This piece experiments with loop compositing and color grading to achieve a seamless flow.'
+    ],
+    client: 'Urban Lifestyle Brand',
+    role: 'Director',
+    artDirection: 'Metro Studios',
+    bgColor: '#f3f3f3'
+  },
+  {
+    id: 'neon-dreams',
+    title: 'Neon Dreams',
+    subtitle: 'Cyberpunk aesthetics',
+    category: '3D Animation',
+    thumbnail: '/assets/Monad_Purple.mp4',
+    videoThumbnail: '/assets/Monad_Purple.mp4',
+    videoUrl: '/assets/Monad_Purple.mp4',
+    description: [
+      'A dive into future-noir aesthetics, using neon lighting and geometric primitives to construct a digital dreamscape.',
+      'Explores the interplay of light and shadow in a purely synthetic environment.'
+    ],
+    client: 'Tech Conference',
+    role: '3D Artist',
+    artDirection: 'Future Lab',
+    bgColor: '#2d1f3d'
+  },
+  {
+    id: 'fluid-mind',
+    title: 'Fluid Mind',
+    subtitle: 'Abstract thought process',
+    category: 'Art Direction',
+    thumbnail: '/assets/Pink_Abstract.mp4',
+    videoThumbnail: '/assets/Pink_Abstract.mp4',
+    videoUrl: '/assets/Pink_Abstract.mp4',
+    description: [
+      'Visualizing the flow of creative thought through organic, liquid simulations.',
+      'A metaphorical representation of how ideas merge, separate, and evolve.'
+    ],
+    client: 'Design Agency',
+    role: 'Creative Lead',
+    artDirection: 'Flux Creative',
+    bgColor: '#ffe6f0'
+  },
+  {
+    id: 'sky-sanctuary',
+    title: 'Sky Sanctuary',
+    subtitle: 'Digital escapism',
+    category: 'VFX',
+    thumbnail: '/assets/White_Cloudz.mp4',
+    videoThumbnail: '/assets/White_Cloudz.mp4',
+    videoUrl: '/assets/White_Cloudz.mp4',
+    description: [
+      'Creating a peaceful digital sanctuary through volumetric cloud rendering.',
+      'Designed to provide a moment of calm and introspection for the viewer.'
+    ],
+    client: 'Wellness App',
+    role: 'VFX Supervisor',
+    artDirection: 'Zenith Arts',
+    bgColor: '#f5f5f5'
+  },
+  {
+    id: 'global-connect',
+    title: 'Global Connect',
+    subtitle: 'Borderless communication',
+    category: 'Motion Graphics',
+    thumbnail: '/assets/World_Tourism.mp4',
+    videoThumbnail: '/assets/World_Tourism.mp4',
+    videoUrl: '/assets/World_Tourism.mp4',
+    description: [
+      'Illustrating the concept of a connected world through seamless transitions and cultural iconography.',
+      'A fast-paced journey that highlights the shrinking distance between cultures in the digital age.'
+    ],
+    client: 'Telecom Provider',
+    role: 'Lead Animator',
+    artDirection: 'Connectivity Labs',
+    bgColor: '#e6f4ff'
+  },
+  {
+    id: 'void-spiral',
+    title: 'Void Spiral',
+    subtitle: 'Into the unknown',
+    category: 'Experimental',
+    thumbnail: '/assets/Purple_Spiral.mp4',
+    videoThumbnail: '/assets/Purple_Spiral.mp4',
+    videoUrl: '/assets/Purple_Spiral.mp4',
+    description: [
+      'An abstract journey into the center of a digital void.',
+      'Using recursive algorithms to generate an infinite, hypnotic tunnel effect.'
+    ],
+    client: 'Music Festival',
+    role: 'Visualist',
+    artDirection: 'Deep Space Design',
+    bgColor: '#1f1f2d'
+  }
+];
+
+export const BRANDS = [
+  { name: 'Google', logo: 'https://cdn.simpleicons.org/google' },
+  { name: 'Nike', logo: 'https://cdn.simpleicons.org/nike' },
+  { name: 'Spotify', logo: 'https://cdn.simpleicons.org/spotify' },
+  { name: 'Apple', logo: 'https://cdn.simpleicons.org/apple' },
+  { name: 'Uber', logo: 'https://cdn.simpleicons.org/uber' },
+  { name: 'Adidas', logo: 'https://cdn.simpleicons.org/adidas' },
+  { name: 'Netflix', logo: 'https://cdn.simpleicons.org/netflix' },
+  { name: 'Red Bull', logo: 'https://cdn.simpleicons.org/redbull' },
+  { name: 'Tesla', logo: 'https://cdn.simpleicons.org/tesla' },
+  { name: 'Airbnb', logo: 'https://cdn.simpleicons.org/airbnb' }
+];
+
+export const TESTIMONIALS = [
+  {
+    text: "Yomamoto's motion work completely transformed our brand identity. The attention to detail is unmatched.",
+    author: "Sarah Jenkins, Creative Director at Nexus"
+  },
+  {
+    text: "Incredible ability to translate complex concepts into fluid, beautiful animations. A true artist.",
+    author: "David Chen, VP of Design at Horizon"
+  },
+  {
+    text: "Fast, professional, and wildly creative. The best motion designer we've had the pleasure of working with.",
+    author: "Elena Rodriguez, Founder of Studio M"
   }
 ];
